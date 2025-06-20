@@ -63,3 +63,56 @@ Html tiene muchos elementos para lo que es describir contenido, texto, imágenes
 - Cierre de un elemento -> Similar a la abertura pero con "/", en algunos elementos se omite.
 
 ## Estructura de un documento HTML
+
+Podemos crear archivos html con la extension .html:
+
+index.html
+
+La página principal de la web siempre será el archivo index.html
+
+La estructura principal de un documento HTML se compone de 4 elementos.
+
+```
+<!DOCTYPE html>
+<html>
+<head> </head>
+<body> </body>
+</html>
+```
+
+Toda estructura de un documento html debe empezar con DOCTYPE html y `<html>`
+
+El `<head>` sirve para configurar la página web y describir el sitio web, como el título, agregar descripción, configurar el viewport, conectarla a recursos externos.
+
+El `<body>` es el contenedor que servirá para mostrar los elementos en pantalla, todo lo que se verá estará dentro de body.
+
+## Elementos de Texto
+
+Elementos de tipo texto son:
+
+`<h1> - <h6>` -> Son encabezados, títulos que nos sirven para diferenciar secciones según jerarquía, donde h1 es el mas importante y debe ser el único titulo principal.
+`<p>` -> Sirve para encerrar un párrafo, texto simple.
+`<strong>` -> Convierte en negrita el texto, usando semántica, el texto tendrá significado para el navegador.
+`<em>` -> Da énfasis al texto, también usa semántica para dar significado.
+
+# Glosario de etiquetas HTML
+
+Aquí almacenaré cada etiqueta usada para poder acceder fácilmente a ellas, los conceptos que tendrán serán los que yo crea que son.
+
+`<!DOCTYPE html lang="">` -> Indica que se utilizará HTML 5 en el documento, por defecto siempre debe ir. 'lang' es para poner en que idioma estará la página.
+
+`<html></html>` -> Es el contenedor principal de toda pagina html, este elemento indica al navegador que todo lo que esté dentro lo interprete como código HTML.
+
+`<body>` -> Elemento que hace de contenedor a todos los demás elementos que se mostrarán en pantalla, todo lo que esté dentro de `<body>` se renderizara.
+
+`<head>` -> Es un contenedor de meta datos y configuraciones esenciales para la página, no muestra nada en pantalla, solo define información técnica, enlaces a recursos.
+
+`<title>` -> Se usa para colocar el titulo de la pestaña.
+
+`<h1> - <h6>` -> Son elementos de encabezado, con este elemento defines títulos y subtítulos en una página web. La más importante es el H1 y va bajando en jerarquía h2,h3,h4...h6 es el mínimo.
+
+`<p>` -> Es una etiqueta de las más básicas y esenciales, se utiliza para agrupar texto en bloques de contenido separados. No es decorativo, usar `<span>` en ese caso para aplicar estilos, no puede llevar elementos como `<div>`, `<h1> - <h6>` o otro `<p>` dentro.
+
+`<em>` -> Se usa para dar énfasis semántico al texto, también indica que debe tener énfasis lingüístico.
+
+`<strong>` -> También para dar énfasis semántico pero en este caso para marcar el texto como de alta importancia, seriedad o urgencia.
