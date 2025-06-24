@@ -90,10 +90,66 @@ El `<body>` es el contenedor que servirá para mostrar los elementos en pantalla
 
 Elementos de tipo texto son:
 
-`<h1> - <h6>` -> Son encabezados, títulos que nos sirven para diferenciar secciones según jerarquía, donde h1 es el mas importante y debe ser el único titulo principal.
-`<p>` -> Sirve para encerrar un párrafo, texto simple.
-`<strong>` -> Convierte en negrita el texto, usando semántica, el texto tendrá significado para el navegador.
-`<em>` -> Da énfasis al texto, también usa semántica para dar significado.
+- `<h1> - <h6>` -> Son encabezados, títulos que nos sirven para diferenciar secciones según jerarquía, donde h1 es el mas importante y debe ser el único titulo principal.
+- `<p>` -> Sirve para encerrar un párrafo, texto simple.
+- `<strong>` -> Convierte en negrita el texto, usando semántica, el texto tendrá significado para el navegador.
+- `<em>` -> Da énfasis al texto, también usa semántica para dar significado.
+
+## Listas
+
+Las etiquetas que conforman una lista son 3: <b>ol<b>, <b>ul<b>, <b>li<b>.
+
+Elementos tipo lista:
+
+- `<ol>` -> Se utiliza para crear listas ordenadas, que son secuenciales, su semántica es presentar el texto de forma consecutiva, respetando el orden de los elementos.
+
+- `<ul>` -> Se usa para listas que no son necesariamente ordenadas.
+
+- `<li>` -> Van dentro de <b>ol<b> y <b>ul<b>, es como el item de la lista.
+
+## Imágenes y atributos
+
+Las imágenes se colocan con la etiqueta <b>`<img>`<b> utilizando el atributo <b>src<b> para darle el path/ruta del archivo y también se usa el atributo <b>alt<b> para que la imagen tenga una descripción, los dos atributos son obligatorios en la etiqueta <b>img<b>.
+
+Ejemplo de código:
+
+`<img  src="ruta/imagen.jpg" alt="texto descriptivo de la imagen" />`
+
+### ¿Pero qué son los atributos?
+
+Los atributos son modificadores que se añaden a las etiquetas para proporcionar información adicional, personalizar su comportamiento o definir características especificas. Ejemplo:
+
+`<etiqueta atributo="valor">Contenido</etiqueta>`
+
+De esta forma podemos decirle a la etiqueta tag `<img>` mediante los atributos la imagen que va a mostrar y su texto descriptivo.
+
+## Enlaces
+
+Los enlaces sirve para poder navegar entre páginas web, descargar videos, enviar correos o saltar entre secciones de una página web.
+
+Para crear un enlace se utiliza la etiqueta `<a>` y el atributo <b>href<b>.
+
+Ejemplo:
+`<a href="https://www.ejemplo.com">Visitar Ejemplo</a>`
+
+## Estructura de una página
+
+Existen etiquetas que son para estructurar el contenido, mientras otras son para definir, hay etiquetas que nos dicen que parte hará en la página web.
+
+Tenemos etiquetas como:
+
+- `<header>` -> No confundir con la etiqueta `<head>`, este elemento indica que elementos son del encabezado de una página o un articulo.
+- `<nav>` -> Lista los enlaces con los que se navegara por el sitio web.
+- `<article>` -> Engloba contenido extra, que no tiene nada que ver con el contenido de la página actual.
+- `<footer>` -> Es el pié de página, se coloca información adicional como contacto, redes, enlaces legales.
+
+# ¿Qué es la semántica?
+
+La semántica es el significado que tiene cada elemento, algunas representan imágenes, otro texto, listas, títulos, notas, direcciones, etc.
+
+Es importante para el SEO en los motores de búsqueda, la accesibilidad para las personas que tienen alguna discapacidad visual.
+
+<b>Es obligatorio cumplir con este concepto.<b>
 
 # Glosario de etiquetas HTML
 
@@ -116,3 +172,18 @@ Aquí almacenaré cada etiqueta usada para poder acceder fácilmente a ellas, lo
 `<em>` -> Se usa para dar énfasis semántico al texto, también indica que debe tener énfasis lingüístico.
 
 `<strong>` -> También para dar énfasis semántico pero en este caso para marcar el texto como de alta importancia, seriedad o urgencia.
+
+`<ol>` -> Se utiliza para crear listas ordenadas, que son secuenciales, su semántica es presentar el texto de forma consecutiva, respetando el orden de los elementos.
+
+`<ul>` -> Se usa para listas que no son necesariamente ordenadas.
+
+`<li>` -> Se utiliza para definir el item individual dentro de una lista.
+
+`<img>` -> Sirve para insertar imágenes en un página web.
+
+`<a>` -> Sirve para definir enlaces/link/hipervínculos.
+
+`<header>` -> Encierra el encabezado de una web.
+`<nav>` -> Identifica la lista de enlaces que sirven para navegar por la web.
+`<article>` -> Representa un contenido individual que no tenga que ver con la web actual.
+`<footer>` -> Pie de página de la web con información extra.
