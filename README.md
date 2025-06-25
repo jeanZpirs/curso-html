@@ -48,6 +48,12 @@ Los 3 cores de una página web:
 - CSS -> Su tarea es de darle presentación, estilizar los elementos del contenido html.
 - JavaScript -> Es para agregar interactividad, dinamismo, animaciones a la web.
 
+<br>
+<br>
+<br>
+
+# Fundamentos de HTML
+
 ## ¿Qué es HTML?
 
 Html es un lenguaje de marcado, sus siglas significan Hyper Text Markup Language (Lenguaje de marcado de hyper texto), es uno de los lenguajes principales de la web, el navegador no entiende otro lenguaje que no sea html para estructurar y describir contenido.
@@ -97,7 +103,7 @@ Elementos de tipo texto son:
 
 ## Listas
 
-Las etiquetas que conforman una lista son 3: <b>ol<b>, <b>ul<b>, <b>li<b>.
+Las etiquetas que conforman una lista son 3: <b>ol</b>, <b>ul</b>, <b>li</b>.
 
 Elementos tipo lista:
 
@@ -105,11 +111,11 @@ Elementos tipo lista:
 
 - `<ul>` -> Se usa para listas que no son necesariamente ordenadas.
 
-- `<li>` -> Van dentro de <b>ol<b> y <b>ul<b>, es como el item de la lista.
+- `<li>` -> Van dentro de <b>ol</b> y <b>ul</b>, es como el item de la lista.
 
 ## Imágenes y atributos
 
-Las imágenes se colocan con la etiqueta <b>`<img>`<b> utilizando el atributo <b>src<b> para darle el path/ruta del archivo y también se usa el atributo <b>alt<b> para que la imagen tenga una descripción, los dos atributos son obligatorios en la etiqueta <b>img<b>.
+Las imágenes se colocan con la etiqueta <b>`<img>`</b> utilizando el atributo <b>src</b> para darle el path/ruta del archivo y también se usa el atributo <b>alt</b> para que la imagen tenga una descripción, los dos atributos son obligatorios en la etiqueta <b>img</b>.
 
 Ejemplo de código:
 
@@ -127,7 +133,7 @@ De esta forma podemos decirle a la etiqueta tag `<img>` mediante los atributos l
 
 Los enlaces sirve para poder navegar entre páginas web, descargar videos, enviar correos o saltar entre secciones de una página web.
 
-Para crear un enlace se utiliza la etiqueta `<a>` y el atributo <b>href<b>.
+Para crear un enlace se utiliza la etiqueta `<a>` y el atributo <b>href</b>.
 
 Ejemplo:
 `<a href="https://www.ejemplo.com">Visitar Ejemplo</a>`
@@ -143,13 +149,103 @@ Tenemos etiquetas como:
 - `<article>` -> Engloba contenido extra, que no tiene nada que ver con el contenido de la página actual.
 - `<footer>` -> Es el pié de página, se coloca información adicional como contacto, redes, enlaces legales.
 
+<br>
+<br>
+
 # ¿Qué es la semántica?
 
 La semántica es el significado que tiene cada elemento, algunas representan imágenes, otro texto, listas, títulos, notas, direcciones, etc.
 
 Es importante para el SEO en los motores de búsqueda, la accesibilidad para las personas que tienen alguna discapacidad visual.
 
-<b>Es obligatorio cumplir con este concepto.<b>
+<b>Es obligatorio cumplir con este concepto.</b>
+
+<br>
+<br>
+<br>
+
+# Fundamentos de CSS
+
+## ¿Qué es CSS?
+
+CSS es un lenguaje en cascada de estilos (Cascade Style Sheets), se encarga de dar estilos a los elementos html. Mientras que HTML crea el contenido que tendrá el sitio web, CSS proporciona el diseño, colores, tamaños, etc.
+
+![Regla CSS - Anatomia](/images-readme/css_rule.png)
+
+```
+h1 {
+  color: blue;
+  text-align: center;
+  font-size: 20px
+}
+```
+
+## En linea, interno y css externo
+
+Hay 3 formas de añadir CSS al documento HTML.
+
+- En linea -> Se agrega directamente en el elemento html.
+
+  `<p style="color: red">Hola mundo</p>`
+
+- En el head y `<style>` -> En el `<head>` agregas la etiqueta `<style>` y escribir css ahi dentro usando selectores.
+
+  ```
+  <head>
+    <style>
+      h1 {
+        color: blue;
+      }
+    </style>
+  </head>
+  ```
+
+- En un archivo externo -> Creamos una archivo CSS (style.css) donde irá el código y lo enlazamos al html utilizando la etiqueta `<link>` dentro del `<head>`.
+
+  ```
+  <head>
+  <link role="stylesheets" href="/ruta/style.css">
+  </head>
+  ```
+
+Nota: <b>Recomendable siempre utilizar el método del archivo externo.</b>
+
+## Estilizando texto
+
+Para estilizar texto tenemos propiedades como:
+
+- font-size
+- font-family
+- font-weight
+- line-height
+- text-transform
+- color
+- letter-spacing
+- text-align
+
+## Combinando selectores
+
+Podemos selecciona el elemento directamente con el nombre de etiqueta pero lo malo es que seleccionará todos los elementos que tengan el mismo nombre, por ejemplo `<h2>`.
+
+Para combinar selectores y especificar uno podemos descender
+
+```
+HTML
+<article>
+  <header>
+    <h2>Hola</h2>
+  </header>
+</article>
+
+CSS
+article header h2 {
+  color: red;
+}
+```
+
+Combinamos los selectores para aplicar estilos a un elemento en especifico.
+
+  <br>
 
 # Glosario de etiquetas HTML
 
@@ -184,6 +280,22 @@ Aquí almacenaré cada etiqueta usada para poder acceder fácilmente a ellas, lo
 `<a>` -> Sirve para definir enlaces/link/hipervínculos.
 
 `<header>` -> Encierra el encabezado de una web.
+
 `<nav>` -> Identifica la lista de enlaces que sirven para navegar por la web.
+
 `<article>` -> Representa un contenido individual que no tenga que ver con la web actual.
+
 `<footer>` -> Pie de página de la web con información extra.
+
+<br>
+
+# Glosario de propiedades CSS
+
+- **font-size** -> Configura el tamaño de letra
+- **font-family** -> Define la tipografía
+- **font-weight** -> El grosor de la tipografía
+- **line-height** -> El espacio que hay entre lineas
+- **text-transform** -> Minúsculas, mayúsculas o capitalizado
+- **color** -> Color de la tipografía
+- **letter-spacing** -> El espacio entre letras en un palabra
+- **text-align** -> Alineamiento del texto.
