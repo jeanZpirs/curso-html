@@ -247,6 +247,28 @@ Combinamos los selectores para aplicar estilos a un elemento en especifico.
 
   <br>
 
+## Selectores de clase y id
+
+Tenemos dos tipos de selectores aparte de el selector de elementos.
+
+- Selector clases -> Se aplica utilizando el atributo `class=""` en el elemento HTML, se puede reutilizar muchas veces y en varios elementos.
+
+- Selector de id's -> Se aplica utilizando el atributo `id=""` en el elemento, no se usa para selector de css y si se usa solo puede haber un **id** con el mismo nombre en todo el documento html.
+
+## Colores
+
+Podemos utilizar colores con la notación RGB o Hexadecimales, los colores cubre rojo, verde y azul.
+
+La notación RGB combina los colores de esta forma
+
+`rgb(255, 255, 255, 0.5)` -> cada **255** representa un color, están en el orden rojo, verde y azul, donde va de 0 a 255, mínimo y máximo. El ultimo valor representa la transparencia que tendrá el color,
+
+En la notación hexadecimal funciona de la misma forma
+
+`#ffffff` -> son 6 caracteres, dos caracteres representan un color y van en el mismo orden, **ff** vendría a ser como **255** y **00** como 0.
+
+Usualmente se utiliza la notación hexadecimal para colores comunes y RGBA para colores con transparencia.
+
 # Glosario de etiquetas HTML
 
 Aquí almacenaré cada etiqueta usada para poder acceder fácilmente a ellas, los conceptos que tendrán serán los que yo crea que son.
@@ -299,3 +321,5 @@ Aquí almacenaré cada etiqueta usada para poder acceder fácilmente a ellas, lo
 - **color** -> Color de la tipografía
 - **letter-spacing** -> El espacio entre letras en un palabra
 - **text-align** -> Alineamiento del texto.
+- **border** -> Podemos agregar un borde al rededor del elemento.
+- **background** -> Agrega fondo de colores, imágenes y configurar su presentación.
