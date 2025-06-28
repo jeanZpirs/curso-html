@@ -269,6 +269,108 @@ En la notación hexadecimal funciona de la misma forma
 
 Usualmente se utiliza la notación hexadecimal para colores comunes y RGBA para colores con transparencia.
 
+## Pseudo-clases
+
+Las pseudo-clases son una palabra clave que usan los selectores para definir un estado especial de un elemento.
+
+```
+p:first-child {
+  color: red;
+}
+```
+
+La pseudo-clase se aplica después del selector con `:pseudo-clase`, en el ejemplo se captura al elemento que sea el primer hijo.
+
+Existe muchas pseudo-clases, en el glosario de pseudo-clases estará las que se mencionaron en el curso.
+
+## Pseudo-clases en hipervínculos - Estilizando enlaces
+
+Estilizar los hipervínculos se hace con pseudo-clases, identificando todos sus estados.
+
+```
+- Selecciona al enlace con atributo href
+a:link {
+  color: #1098ad;
+  text-decoration: none;
+}
+
+- Aplica al sitio web visitado
+a:visited {
+  color: #1098ad;
+}
+
+- Cuando el puntero del mouse esta encima aplica estilos
+a:hover {
+  color: orangered;
+  font-weight: bold;
+  text-decoration: underline dotted orangered;
+}
+
+- Cuando se clickea al elemento aplica los estilos
+a:active {
+  background-color: black;
+  font-style: italic;
+}
+```
+
+## Chrome DevTools
+
+Es una herramienta que nos brinda el navegador para poder visualizar el código de la página, tanto el html, el css y algunas cosas más.
+
+![Chrome DevTools](/images-readme/chrome-dev-tools.png)
+
+Podemos realizar configuraciones, testear, etc.
+
+## Teoría de CSS: Conflicto entre selectores
+
+Existe la posibilidad en la que varios selectores apunten a un mismo elementos, aplicando mismas propiedades de estilo pero con diferente, ahi salta la duda de que declaración css se está aplicando.
+
+Pero en sí se aplican todas, lo que pasa después es quien toma la prioridad de selector y aplica el estilo final.
+
+Son 6 niveles de prioridad.
+
+- Nivel 5 -> Declaraciones marcadas con !important
+- Nivel 4 -> Estilos en linea (en el elemento html)
+- Nivel 3 -> Selectores de ID
+- Nivel 2 -> Selectores de Clase o Pseudo-clases
+- Nivel 1 -> Selector de elemento (p, div, li, etc)
+- Nivel 0 -> Selector universal (\*)
+
+Van de la más alta prioridad Nivel 5 a la mas baja Nivel 0.
+
+En caso de que haya muchos selectores de un mismo nivel entonces se aplica el que esta escrito al último o final del código.
+
+## Teoría de CSS: Herencia y el selector universal
+
+La herencia funciona aplicando estilos al contenedor, como propiedades de tipo texto y entonces esta hereda a los elementos de tipo texto.
+
+El selector universal selecciona a todos los elementos y aplica los estilos a todos los elementos, no aplica herencia en si.
+
+```
+* {
+  color: red;
+}
+```
+
+## Teoría de CSS: El modelo de caja de CSS
+
+El modelo de caja es el espacio que ocupará el elemento en total:
+
+Tenemos 4 espacios en un elemento:
+
+- Contenido -> Es el contenido en sí mismo.
+- Padding -> Es el relleno invisible que está alrededor del contenido.
+- Border -> El borde que lo rodea.
+- Margin -> Espacio que lo aparta de los otros elementos.
+
+Por default el ancho es la suma de: borde izquierdo + relleno izquierdo + contenido + padding derecho + border derecho
+
+La altura por default es: Borde superior + Padding superior + contenido + padding inferior + borde inferior.
+
+## Usando margenes y paddings.
+
+<br>
+
 # Glosario de etiquetas HTML
 
 Aquí almacenaré cada etiqueta usada para poder acceder fácilmente a ellas, los conceptos que tendrán serán los que yo crea que son.
@@ -323,3 +425,16 @@ Aquí almacenaré cada etiqueta usada para poder acceder fácilmente a ellas, lo
 - **text-align** -> Alineamiento del texto.
 - **border** -> Podemos agregar un borde al rededor del elemento.
 - **background** -> Agrega fondo de colores, imágenes y configurar su presentación.
+- **text-decoration** -> Agrega una decoración alrededor del texto.
+
+<br>
+
+# Glosario de pseudo-clases en CSS
+
+- **first-child** -> Captura si es el primer elemento de un contenedor.
+- **last-child** -> Captura si es el ultimo elemento de un contenedor.
+- **nth-child(0-9/even/odd)** -> Captura el elemento según el indice que le pasemos.
+- **link** -> Identifica a los elementos que contengan el atributo href.
+- **visited** -> Captura o aplica estilos al enlace que ha sido visitado.
+- **hover** -> Aplica estilos al elemento que tiene el puntero del mouse apuntando.
+- **active** -> Aplica los estilos cuando haces click.
