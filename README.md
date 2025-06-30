@@ -367,7 +367,54 @@ Por default el ancho es la suma de: borde izquierdo + relleno izquierdo + conten
 
 La altura por default es: Borde superior + Padding superior + contenido + padding inferior + borde inferior.
 
-## Usando margenes y paddings.
+## Usando margenes y paddings
+
+Para crear espacio entre elementos podemos usar **margenes**, tenemos propiedades como:
+
+- margin-bottom
+- margin-top
+- margin-left
+- margin-right
+
+Cuando dos margenes se encuentran, existe el colapso de margenes, entonces el margen que ocupa mas espacio predomina y elimina al menor, como si el menor no contara.
+
+El uso de paddings se añade para crear un relleno en el elemento, esta entre el espacio total y el espacio de contenido. De la misma manera tenemos propiedades como:
+
+- padding-top
+- padding-bottom
+- padding-left
+- padding-right
+
+Para crear espacio entre elementos siempre usar margenes.
+
+## Añadiendo dimensiones
+
+Podemos añadir dimensiones a los elementos con propiedades como **width** y **height**, estas propiedades manejan el tamaño del elemento.
+
+Las unidades de medida pueden ser en **pixeles** o **porcentajes**, normalmente se utilizan porcentajes para imágenes grandes.
+
+```
+aside {
+  width: 100px;
+  height: 20%;
+}
+```
+
+- **Width** -> Es el ancho del elemento
+- **Height** -> El alto de elemento
+
+## Centrando la página
+
+Podemos usar un truco para centrar elemento en una web, primero para aplicar el truco es que el elemento tiene que tener un contenedor que encierre todos los elementos y un ancho especifico, después centrar en **CSS** aplicamos el truco.
+
+```
+.container {
+  width: 800x;
+  margin: 0 auto; <--- El truco
+}
+```
+
+El contenedor se centrará porque aplicar automáticamente margenes de lado a lado
 
 <br>
 
@@ -426,6 +473,10 @@ Aquí almacenaré cada etiqueta usada para poder acceder fácilmente a ellas, lo
 - **border** -> Podemos agregar un borde al rededor del elemento.
 - **background** -> Agrega fondo de colores, imágenes y configurar su presentación.
 - **text-decoration** -> Agrega una decoración alrededor del texto.
+- **margin** -> Crea espacio a los alrededores del elemento, no cuenta como tamaño del elemento en si.
+- **padding** -> Crea relleno en el elemento, este si cuenta como tamaño del contenido.
+- **width** -> Es el ancho del elemento
+- **height** -> El alto de elemento
 
 <br>
 
