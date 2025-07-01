@@ -416,6 +416,46 @@ Podemos usar un truco para centrar elemento en una web, primero para aplicar el 
 
 El contenedor se centrará porque aplicar automáticamente margenes de lado a lado
 
+## Teoría de CSS: Tipos de caja
+
+Los tipos de caja son el comportamiento que tendrá el elemento en el espacio dentro del documento HTML.
+
+Tenemos 3 tipos de caja:
+
+- Block -> Este tipo de caja hace que el elemento ocupe todo el ancho de la pantalla, creando un salto de linea para el siguiente elemento,
+
+- Inline-Block -> Tiene propiedades del modelo de caja Block pero sin ocupar todo el ancho.
+
+- Inline -> Ocupa solo lo que necesita de espacio pero el margen y padding no les afecta en top ni bottom.
+
+```
+.elemento {
+  display: block / inline-block / inline
+}
+```
+
+## Teoría de CSS: Posicionamiento absoluto
+
+El posicionamiento absoluto de elementos se refiere a sacar del flow predeterminado del documento html, de arriba para abajo, en este caso el posicionamiento absoluto lo saca y se le puede colocar el cualquier parte del documento. Para realizarlo se necesita el contenedor donde se moverá con libertad el elemento absoluto.
+
+```
+.elemento__container {
+  position: relative;
+}
+
+.elemento {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+}
+```
+
+El contenedor tiene que tener la declaración **position: relative** para que se le reconozca.
+
+El elemento que se moverá con libertad debe aplicar **position: absolute** y las propiedades **top, left, bottom y right**
+
+Algo importante, si el elemento que será absoluto está dentro de dos contenedores article>header>elemento, y ambos contenedores tienen position relative, entonces el elemento absoluto reconocerá solo al primer contenedor como su contenedor.
+
 <br>
 
 # Glosario de etiquetas HTML
@@ -477,6 +517,7 @@ Aquí almacenaré cada etiqueta usada para poder acceder fácilmente a ellas, lo
 - **padding** -> Crea relleno en el elemento, este si cuenta como tamaño del contenido.
 - **width** -> Es el ancho del elemento
 - **height** -> El alto de elemento
+- **display** -> Define el comportamiento del elemento respecto al espacio
 
 <br>
 

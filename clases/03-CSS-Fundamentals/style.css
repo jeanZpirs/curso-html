@@ -8,6 +8,7 @@ body {
   color: #444;
 
   border-top: 10px solid #1098ad;
+  position: relative;
 }
 
 .container {
@@ -130,6 +131,22 @@ aside {
   width: 500px;
 }
 
+nav a:link,
+nav a:visited {
+  /* background-color: orangered;
+  margin: 20px;
+  padding: 20px;
+
+  display: block; */
+  margin-right: 30px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+nav a:link:last-child {
+  margin-right: 0;
+}
+
 li:first-child {
   font-weight: bold;
 }
@@ -138,9 +155,9 @@ li:last-child {
   font-style: italic;
 }
 
-li:nth-child(2) {
+/* li:nth-child(2) {
   color: red;
-}
+} */
 
 /* Enlizando enlaces */
 a:link {
@@ -166,6 +183,16 @@ a:active {
 .post-img {
   width: 100%;
   height: auto;
+}
+
+button {
+  font-size: 22px;
+  padding: 20px;
+  cursor: pointer;
+
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
 }
 
 /* Resolviendo conflictos */
