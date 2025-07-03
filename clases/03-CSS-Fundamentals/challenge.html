@@ -17,7 +17,9 @@
       h1 {
         text-align: center;
         text-transform: uppercase;
+        padding: 20px 0;
       }
+
       h2 {
         font-size: 18px;
         text-transform: uppercase;
@@ -27,7 +29,20 @@
       article {
         border: 4px solid rgb(0, 0, 0);
         width: 825px;
-        margin: 0 auto;
+        margin: 100px auto;
+        position: relative;
+      }
+
+      article::before {
+        content: "SALE";
+        background-color: red;
+        font-weight: bold;
+        color: white;
+        display: inline-block;
+        padding: 8px 20px;
+        position: absolute;
+        top: -20px;
+        left: -40px;
       }
 
       img {
@@ -83,6 +98,36 @@
         color: #000;
         background-color: transparent;
       }
+
+      .square {
+        display: inline-block;
+        width: 25px;
+        height: 25px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+      }
+      .square:last-child {
+        margin: 0;
+      }
+
+      .square-black {
+        background-color: black;
+      }
+      .square-blue {
+        background-color: blue;
+      }
+      .square-red {
+        background-color: red;
+      }
+      .square-yellow {
+        background-color: yellow;
+      }
+      .square-green {
+        background-color: green;
+      }
+      .square-brown {
+        background-color: brown;
+      }
     </style>
   </head>
   <body>
@@ -105,6 +150,13 @@
         aria-label="More information about Converse Chuck Taylor"
         >More information &rarr;</a
       >
+
+      <span class="square square-black"></span>
+      <span class="square square-blue"></span>
+      <span class="square square-red"></span>
+      <span class="square square-yellow"></span>
+      <span class="square square-green"></span>
+      <span class="square square-brown"></span>
 
       <h2>Product details</h2>
       <ul>

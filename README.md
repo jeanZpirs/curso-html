@@ -456,6 +456,29 @@ El elemento que se moverá con libertad debe aplicar **position: absolute** y la
 
 Algo importante, si el elemento que será absoluto está dentro de dos contenedores article>header>elemento, y ambos contenedores tienen position relative, entonces el elemento absoluto reconocerá solo al primer contenedor como su contenedor.
 
+## Pseudo elementos
+
+Los pseudo elementos son selectores que no se pueden seleccionar en html pero si en CSS, por ejemplo podemos seleccionar sola la primera linea de un párrafo, la primera letra de un texto, etc.
+
+También se puede crear elementos desde css a partir de un elemento de html utilizando los pseudo-elementos **::before** y **::after**.
+
+```
+p::first-line { color: red; }
+p::first-letter { font-style: italic; }
+
+h2::after {
+  content: "TOP" <-- Contenido del pseudo-elemento;
+  display: inline-block;
+  ...
+}
+
+h2::before {
+  content: "TOP" <-- Contenido del pseudo-elemento;
+  display: inline-block;
+  ...
+}
+```
+
 <br>
 
 # Glosario de etiquetas HTML
