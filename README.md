@@ -479,6 +479,32 @@ h2::before {
 }
 ```
 
+# Diseños: Floats, Flexbox y CSS Grid
+
+## Los 3 métodos para construir diseños
+
+Tenemos tres formas de construir diseños en CSS, podemos usar
+
+- Floats -> Los floats son parecidos al **position:absolute** solo que cuando un elemento es flotante, los demás flotan a su alrededor. (Ya no se usa actualmente)
+
+- Flex-box -> Organiza los elementos de un contenedor de forma vertical o horizontal, unidimensional.
+
+- CSS Grid -> Organiza elementos de forma bidimensional, creando una cuadricula que abarca columnas y filas.
+
+## Usamos floats
+
+Para utilizar floats usamos la propiedad **float** con su valor **left/right** según nos sea necesario.
+
+Si todos los elementos de un contenedor son float, entonces el contenedor perderá su altura, como si dichos elementos no existieran dentro de él.
+
+Se resuelve con un truco.
+
+```
+.element {
+  float: right / left
+}
+```
+
 <br>
 
 # Glosario de etiquetas HTML
