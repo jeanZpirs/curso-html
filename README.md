@@ -505,6 +505,14 @@ Se resuelve con un truco.
 }
 ```
 
+El truco se **clear: both**, se aplica en el contenedor de los elemento flotantes para recuperar el tamaño de altura de los contenedores.
+
+```
+.parentElement {
+  clear: both;
+}
+```
+
 <br>
 
 # Glosario de etiquetas HTML

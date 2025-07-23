@@ -8,20 +8,23 @@
       * {
         margin: 0;
         padding: 0;
+        box-sizing: border-box;
       }
 
       body {
         font-family: sans-serif;
+        line-height: 1.4;
       }
 
       h1 {
         text-align: center;
         text-transform: uppercase;
         padding: 20px 0;
+        font-size: 22px;
       }
 
       h2 {
-        font-size: 18px;
+        font-size: 16px;
         text-transform: uppercase;
         margin-bottom: 16px;
       }
@@ -37,9 +40,11 @@
         content: "SALE";
         background-color: red;
         font-weight: bold;
+        font-size: 12px;
+        letter-spacing: 2px;
         color: white;
         display: inline-block;
-        padding: 8px 20px;
+        padding: 7px 15px;
         position: absolute;
         top: -20px;
         left: -40px;
@@ -48,6 +53,7 @@
       img {
         width: 250px;
         height: 250px;
+        display: block;
       }
 
       ul {
@@ -59,19 +65,24 @@
       }
 
       .price {
-        font-size: 30px;
+        font-size: 24px;
         font-weight: bold;
+        float: left;
+        margin-bottom: 10px;
       }
 
       .delivery {
         text-transform: uppercase;
         font-weight: bold;
         color: #444;
-        margin-bottom: 20px;
+        font-size: 12px;
+        float: right;
+        margin-top: 10px;
       }
 
       .information {
         margin-bottom: 12px;
+        clear: both;
       }
 
       .more-information:link,
@@ -86,6 +97,7 @@
       }
 
       button {
+        border: none;
         font-size: 24px;
         text-transform: uppercase;
         background-color: black;
@@ -101,10 +113,9 @@
 
       .square {
         display: inline-block;
-        width: 25px;
-        height: 25px;
-        margin-right: 20px;
-        margin-bottom: 20px;
+        width: 22px;
+        height: 22px;
+        margin-right: 10px;
       }
       .square:last-child {
         margin: 0;
@@ -128,42 +139,72 @@
       .square-brown {
         background-color: brown;
       }
+
+      .clearfix::after {
+        display: block;
+        content: "";
+        clear: both;
+      }
+
+      img {
+        float: left;
+        margin-right: 40px;
+      }
+
+      .information-box {
+        float: left;
+        width: 243px;
+
+        margin-right: 40px;
+        margin-top: 20px;
+      }
+
+      .details-box {
+        float: right;
+        margin-top: 20px;
+        width: 243px;
+      }
     </style>
   </head>
   <body>
     <article>
-      <header>
-        <h1>Converse Chuck Taylor All Start Low Top</h1>
+      <h1>Converse Chuck Taylor All Start Low Top</h1>
+
+      <div class="container clearfix">
         <img src="img/challenges.jpg" alt="A converse model" />
-        <p class="price"><data value="65.00">$65.00</data></p>
-      </header>
 
-      <p class="delivery">Free Shipping</p>
-      <p class="information">
-        Ready to dress up or down, these classic canvas Chucks are an everyday
-        wardrobe staple.
-      </p>
+        <div class="information-box">
+          <p class="price"><data value="65.00">$65.00</data></p>
+          <p class="delivery">Free Shipping</p>
+          <p class="information">
+            Ready to dress up or down, these classic canvas Chucks are an
+            everyday wardrobe staple.
+          </p>
 
-      <a
-        class="more-information"
-        href="#"
-        aria-label="More information about Converse Chuck Taylor"
-        >More information &rarr;</a
-      >
+          <a
+            class="more-information"
+            href="#"
+            aria-label="More information about Converse Chuck Taylor"
+            >More information &rarr;</a
+          >
 
-      <span class="square square-black"></span>
-      <span class="square square-blue"></span>
-      <span class="square square-red"></span>
-      <span class="square square-yellow"></span>
-      <span class="square square-green"></span>
-      <span class="square square-brown"></span>
+          <span class="square square-black"></span>
+          <span class="square square-blue"></span>
+          <span class="square square-red"></span>
+          <span class="square square-yellow"></span>
+          <span class="square square-green"></span>
+          <span class="square square-brown"></span>
+        </div>
 
-      <h2>Product details</h2>
-      <ul>
-        <li>Lightweight, durable, canvas sneaker.</li>
-        <li>Lightly padded footed for added confort.</li>
-        <li>Iconic Chuck Taylor ankle patch.</li>
-      </ul>
+        <div class="details-box">
+          <h2>Product details</h2>
+          <ul>
+            <li>Lightweight, durable, canvas sneaker.</li>
+            <li>Lightly padded footed for added confort.</li>
+            <li>Iconic Chuck Taylor ankle patch.</li>
+          </ul>
+        </div>
+      </div>
       <button>Add to cart</button>
     </article>
   </body>
