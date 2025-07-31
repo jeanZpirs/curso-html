@@ -64,11 +64,16 @@
         margin-bottom: 12px;
       }
 
+      .price-box {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 20px;
+      }
+
       .price {
         font-size: 24px;
         font-weight: bold;
-        float: left;
-        margin-bottom: 10px;
       }
 
       .delivery {
@@ -76,8 +81,6 @@
         font-weight: bold;
         color: #444;
         font-size: 12px;
-        float: right;
-        margin-top: 10px;
       }
 
       .information {
@@ -140,7 +143,7 @@
         background-color: brown;
       }
 
-      .clearfix::after {
+      /* .clearfix::after {
         display: block;
         content: "";
         clear: both;
@@ -163,6 +166,24 @@
         float: right;
         margin-top: 20px;
         width: 243px;
+      } */
+
+      .container {
+        display: flex;
+        gap: 40px;
+        align-items: center;
+      }
+
+      img {
+        flex: 1;
+      }
+
+      .information-box {
+        flex: 1;
+      }
+
+      .details-box {
+        flex: 1;
       }
     </style>
   </head>
@@ -174,8 +195,10 @@
         <img src="img/challenges.jpg" alt="A converse model" />
 
         <div class="information-box">
-          <p class="price"><data value="65.00">$65.00</data></p>
-          <p class="delivery">Free Shipping</p>
+          <div class="price-box">
+            <p class="price"><data value="65.00">$65.00</data></p>
+            <p class="delivery">Free Shipping</p>
+          </div>
           <p class="information">
             Ready to dress up or down, these classic canvas Chucks are an
             everyday wardrobe staple.

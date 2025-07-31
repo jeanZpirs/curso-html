@@ -508,10 +508,70 @@ Se resuelve con un truco.
 El truco se **clear: both**, se aplica en el contenedor de los elemento flotantes para recuperar el tamaño de altura de los contenedores.
 
 ```
-.parentElement {
+.parentElement {b
   clear: both;
 }
 ```
+
+## Flexbox
+
+Flexbox es parecido a floats, su tarea principal es dividir los elementos y aprovechar el espacio vacío de los contenedores, es el reemplazo perfecto para los floats, su extrema facilidad para separar, alinear y centrar elementos lo hace una herramienta difícil de dejar.
+
+### Set de propiedades Flexbox
+
+- Flex container
+
+  - gap: Crea espacio entre los elementos sin usar margin
+  - justify-content: Alinea los elementos a lo largo del eje principal
+  - align-items: Alinea los elementos a lo largo del eje transversal
+  - flex-direction: Define cual sera el eje principal (horizontal o vertical)
+  - flex-wrap: Permite a los items ocupar una nueva linea si son demasiados grandes para el contenedor.
+  - align-content: Solo aplica cuando hay multiples linea de elementos.
+
+- Flex items
+
+  - align-self: Reescribe lo definido por el contenedor en el alineado transversal de forma individual.
+  - flex-grow: Permite al elemento expandirse.
+  - flex-shrink: Permite al elemento encogerse para los otros items.
+  - flex-basis: Define el ancho del elemento dependiendo de la propiedad width del elemento.
+  - flex: 0 1 auto -> Abreviación de grow, shrink, basis en el mismo orden.
+  - order: Controla el orden de los elementos.
+
+## Espacios y alineamiento de elementos flex
+
+Para alinear elementos flex podemos utilizar sus propiedades:
+
+- justify-content: space-between/space-evenly/space-around/center
+- align-items: flex-start/flex-end/center/stretch
+- align-self: flex-start/flex-end/center/stretch
+
+Permiten mover los elementos donde queramos.
+
+Para agregar espacio entre elementos podemos usar la propiedad:
+
+- gap: 10px/1rem
+
+Cambiar el orden de los elementos con:
+
+- order: 0 / 1+
+
+Todos los elementos son 0 en su orden pero cuando uno es el mayor pasa a ser ultimo y el menor el primero.
+
+## La propiedad Flex
+
+La propiedad flex concierne a los elementos flex, o sea los hijo del contenedor flex.
+
+Por default las propiedades son:
+
+```
+flex-grow: 0;
+flex-basis: 1;
+flex-shrink: auto;
+```
+
+- Flex-grow: sirve para dimensionar el ancho del elemento flex, si el numero es mayor ocupa más espacio que lo demás elementos
+- Flex-basis: dimensiona el ancho en unidades como "200px"
+- Flex-shrink: Encoge el elemento para que entre en el contenedor y si su valor es 0 ya no lo encoge.
 
 <br>
 
@@ -575,6 +635,8 @@ Aquí almacenaré cada etiqueta usada para poder acceder fácilmente a ellas, lo
 - **width** -> Es el ancho del elemento
 - **height** -> El alto de elemento
 - **display** -> Define el comportamiento del elemento respecto al espacio
+- **float** -> Diseñador de layouts antiguo, podes usarlo para poner lado a lado elementos u contenedores.
+- **clear** -> Por el momento sabemos que limpia los floats y soluciona el problema del colapso de altura en los contenedores con elementos floats.
 
 <br>
 
