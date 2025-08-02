@@ -168,6 +168,7 @@
         width: 243px;
       } */
 
+      /* FLEX 
       .container {
         display: flex;
         gap: 40px;
@@ -184,6 +185,24 @@
 
       .details-box {
         flex: 1;
+      }*/
+
+      /* CSS Grid */
+
+      article {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 40px;
+
+        align-items: center;
+      }
+
+      h1 {
+        grid-column: 1 / -1;
+      }
+
+      button {
+        grid-column: 1 / -1;
       }
     </style>
   </head>
@@ -191,42 +210,40 @@
     <article>
       <h1>Converse Chuck Taylor All Start Low Top</h1>
 
-      <div class="container clearfix">
-        <img src="img/challenges.jpg" alt="A converse model" />
+      <img src="img/challenges.jpg" alt="A converse model" />
 
-        <div class="information-box">
-          <div class="price-box">
-            <p class="price"><data value="65.00">$65.00</data></p>
-            <p class="delivery">Free Shipping</p>
-          </div>
-          <p class="information">
-            Ready to dress up or down, these classic canvas Chucks are an
-            everyday wardrobe staple.
-          </p>
-
-          <a
-            class="more-information"
-            href="#"
-            aria-label="More information about Converse Chuck Taylor"
-            >More information &rarr;</a
-          >
-
-          <span class="square square-black"></span>
-          <span class="square square-blue"></span>
-          <span class="square square-red"></span>
-          <span class="square square-yellow"></span>
-          <span class="square square-green"></span>
-          <span class="square square-brown"></span>
+      <div class="information-box">
+        <div class="price-box">
+          <p class="price"><data value="65.00">$65.00</data></p>
+          <p class="delivery">Free Shipping</p>
         </div>
+        <p class="information">
+          Ready to dress up or down, these classic canvas Chucks are an everyday
+          wardrobe staple.
+        </p>
 
-        <div class="details-box">
-          <h2>Product details</h2>
-          <ul>
-            <li>Lightweight, durable, canvas sneaker.</li>
-            <li>Lightly padded footed for added confort.</li>
-            <li>Iconic Chuck Taylor ankle patch.</li>
-          </ul>
-        </div>
+        <a
+          class="more-information"
+          href="#"
+          aria-label="More information about Converse Chuck Taylor"
+          >More information &rarr;</a
+        >
+
+        <span class="square square-black"></span>
+        <span class="square square-blue"></span>
+        <span class="square square-red"></span>
+        <span class="square square-yellow"></span>
+        <span class="square square-green"></span>
+        <span class="square square-brown"></span>
+      </div>
+
+      <div class="details-box">
+        <h2>Product details</h2>
+        <ul>
+          <li>Lightweight, durable, canvas sneaker.</li>
+          <li>Lightly padded footed for added confort.</li>
+          <li>Iconic Chuck Taylor ankle patch.</li>
+        </ul>
       </div>
       <button>Add to cart</button>
     </article>

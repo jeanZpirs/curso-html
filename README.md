@@ -573,6 +573,45 @@ flex-shrink: auto;
 - Flex-basis: dimensiona el ancho en unidades como "200px"
 - Flex-shrink: Encoge el elemento para que entre en el contenedor y si su valor es 0 ya no lo encoge.
 
+## Introducción a GRID
+
+Para utilizar grid podemos utilizar la propiedad "display" y el valor "grid" para establecer un contenedor en grid.
+
+Propiedades que acompañan a GRID:
+
+- grid-template-columns: Establece la cantidad de columnas que tendrá el contenedor.
+- grid-template-rows: Establece la cantidad de filas que tendrá el contenedor.
+- gap: Crear separaciones entre las rejillas
+- column-gap: Crea separaciones entre las rejillas de la columna
+- row-gap: Crea separaciones en las rejillas de las filas
+
+## Conceptos de CSS Grid
+
+CSS Grid es un conjunto de propiedades que nos permiten construir diseños complejos de 2 dimensiones, podemos alinear los elementos o grid-items de forma vertical o horizontal.
+
+La idea detrás de CSS Grid es dividir el contenedor en columnas y filas para que puedan ser ocupadas por sus elementos hijo.
+
+Puede parecer ser más útil que Flex-box pero en realidad se hicieron para trabajar en conjunto, CSS Grid se utiliza para diseños grandes y complejos, Flex-box se utiliza para diseños pequeños en un componente u elementos.
+
+### Propiedades
+
+- Contenedor
+
+  - grid-template-rows
+  - grid-template-columns
+  - row-gap
+  - column-gap
+  - justify-items
+  - align-items
+  - justify-content
+  - align-content
+
+- Items
+  - grid-column
+  - grid-row
+  - justify-self
+  - grid-row
+
 <br>
 
 # Glosario de etiquetas HTML
@@ -637,6 +676,12 @@ Aquí almacenaré cada etiqueta usada para poder acceder fácilmente a ellas, lo
 - **display** -> Define el comportamiento del elemento respecto al espacio
 - **float** -> Diseñador de layouts antiguo, podes usarlo para poner lado a lado elementos u contenedores.
 - **clear** -> Por el momento sabemos que limpia los floats y soluciona el problema del colapso de altura en los contenedores con elementos floats.
+
+- **grid-template-columns** -> Establece la cantidad de columnas que tendrá el contenedor.
+- **grid-template-rows** -> Establece la cantidad de filas que tendrá el contenedor.
+- **gap** -> Crear separaciones entre las rejillas
+- **column-gap** -> Crea separaciones entre las rejillas de la columna
+- **row-gap** -> Crea separaciones en las rejillas de las filas
 
 <br>
 
