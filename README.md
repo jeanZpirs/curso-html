@@ -614,6 +614,136 @@ Puede parecer ser más útil que Flex-box pero en realidad se hicieron para trab
 
 <br>
 
+# Reglas de diseño web y frameworks
+
+## Revisión y personalidades de diseño
+
+Cuando creamos páginas web existen dos trabajadores principales, los diseñadores y los desarrolladores. Los diseñadores se encargar del estilo, su personalidad y todo lo que tenga que ver con la parte visual y los desarrolladores son lo que al final ese diseño lo convierten a código.
+
+En tiempos actuales existen personas que hacen ambos trabajos, diseñan y desarrollan, algo que los hace mas competentes.
+
+### ¿Por qué es tan importante que el diseño de una página?
+
+- Un buen diseño transmite confianza al consumidor.
+- Incrementa el valor percibido del producto.
+- Permite al usuario encontrar lo que está buscando
+
+Para crear un buen diseño de nuestra página no es necesario ser 100% creativos o talentosos, basta con seguir una serie de pautas según la personalidad de tu web.
+
+Existen 10 aspectos que tienes que revisar y definir a la hora de crear tu diseño.
+
+- Tipografía
+- Colores
+- Imágenes / Ilustraciones
+- Iconos
+- Sombras
+- Bordes redondeados
+- Espacio en blanco
+- Jerarquía visual
+- Experiencia de usuario
+- Componentes / Diseño
+
+## Tipografía
+
+La tipografía es el arte de que la escritura sea bella y fácil de leer.
+
+Existen dos tipos de tipos de tipografías:
+
+- Sans-serif -> Son un tipo más casual, de uso común.
+- Serif -> Las letras vienen en punta en sus esquinas, la hace perfecta para algunos tipos de diseño.
+
+Reglas básicas para elegir o aplicar tipografías en tu página:
+
+Eligiendo bien la tipografía
+
+1. Ve a lo seguro y usa tipografías populares.
+
+Sans-serif
+
+- Inter
+- Open Sans
+- Roboto
+- Montserrat
+- Work Sans
+- Lato
+
+Serif
+
+- Merriweather
+- Aleo
+- Playfair Display
+- Cormorant
+- Cardo
+- Lora
+
+Todas esas tipografías las encuentras gratis en Google Fonts
+
+2. Si es posible utilizar solo una tipografía y como máximo 2 tipografías.
+3. Elige la tipografía según la personalidad de la web.
+
+- Elige la personalidad de la web
+- Decide entre sans-serif o serif
+- Experimenta con las tipografías hasta encontrar con el que se adapte a tu mensaje en la web.
+- Puedes probar diferentes tipos de tipografía.
+
+Buen tamaño del texto
+
+4. Cuando escojas tamaños de letra, limita tus opciones.
+5. Usa tamaño de fuentes de 16px a 32px para texto normal.
+6. Para texto grande prueba con 20px a más.
+7. Para títulos puedes intentar con 50px a más y un grosor de 600 a más, dependiendo de la personalidad de la web.
+8. Para cualquier tipo de texto no usar un grosor de menos de 400.
+
+Creando una buena experiencia de lectura
+
+9. Usa menos de 75ch por linea.
+10. Para texto normal, usar una separación de linea entre 1.5 a 2, para texto mas grande y por menos de 1.5
+11. Disminuye el espacio entre letras en los títulos si se ve un poco desfasado.
+12. Experimenta con títulos pequeños con todo mayúscula.
+13. Usualmente no justificamos el texto.
+14. No centres bloques de texto largo.
+
+## Colores
+
+Para elegir colores correctos para nuestro diseño web es importante saber que transmiten estos colores:
+
+- Rojo: Llama mucho la atención y simboliza pasión, poder y emoción.
+- Naranja: Representa la creatividad, felicidad, alegría.
+- Amarillo: Significa brillo, inteligencia y diversión.
+- Verde: Representa la armonía, naturaleza, crecimiento y vida.
+- Azul: Asociado con la páz, integridad y profesionalismo.
+- Morado: Transmite magia, riqueza y sabiduría.
+- Rosado: Representa el romance, cuidado y afecto.
+- Marron: Asociado a la naturaleza, duración y confort.
+- Negro: Simboliza poder, elegancia, pero también dolor y pena.
+
+  Elige el color correcto
+
+1. Elige el color principal que represente la personalidad de tu pagina web: colores transmiten significado.
+2. Usa un buen tono de color, no elijas colores random, utiliza herramientas como:
+
+- Open color
+- Flat UI Colors 2
+- Coolors
+
+  Establece un sistema de colores
+
+3. Necesitas dos colores, el principal y un color gris en tu paleta de colores.
+4. Con mas experiencia podrás agregar mas colores: accent colores
+5. Para diversificar, crea tintes mas claros y oscuros de tus colores escogidos.
+
+Cuando y como usar los colores
+
+6. Usa el color principal para llamar la atención en los elementos mas importantes de la web.
+7. Usa los colores para agregar interés en componentes o secciones.
+8. Puedes utilizar imágenes estratégicas que usen tus colores.
+
+Colores y la tipografía
+
+9. En fondos oscuros, intenta utilizar un tinte más claros para el texto
+10. Los textos no deberían ser completamente negros, aclaraos un poco.
+11. Respeta el contraste en el texto para ayudar a las personas que visión empobrecida.
+
 # Glosario de etiquetas HTML
 
 Aquí almacenaré cada etiqueta usada para poder acceder fácilmente a ellas, los conceptos que tendrán serán los que yo crea que son.
