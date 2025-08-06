@@ -744,6 +744,59 @@ Colores y la tipografía
 10. Los textos no deberían ser completamente negros, aclaraos un poco.
 11. Respeta el contraste en el texto para ayudar a las personas que visión empobrecida.
 
+## Imágenes e Ilustraciones
+
+Usar buenas imágenes
+
+1. Existen diferente tipos de imágenes: fotos del producto, storytelling, ilustraciones, patrones. Usar la que mas se adecua a tu página web.
+
+2. Usa imágenes que apoyen al mensaje o historia que está contando la web. No uses imágenes que no tengan nada que ver.
+
+3. Preferentemente usar imágenes originales y propias, nunca usar imágenes genéricas. Puedes obtener imágenes buenas y gratuitas en:
+
+- Unsplash
+- Pexels
+- DrawKit
+- unDraw
+
+4. Intenta mostrar imágenes de personas trasmitiendo emociones.
+5. Si es necesario recortar las imágenes para que se adapten al mensaje.
+6. Experimenta combinando fotos, ilustraciones y patrones
+
+Manejando texto en imágenes
+
+7. Método #1: Oscurece o aclara la imagen completa o parcial usando gradientes para que el texto sea fácil de leer.
+8. Método #2: Posiciona el texto en un area neutral de la imagen.
+9. Método #3: Pon el texto en una caja sobre la imagen.
+
+Detalles técnicos sobre las imágenes
+
+10. Tener en cuenta que existe pantalla de muy alta densidad de pixeles, si tu imagen debe mostrarse en 300px la imagen debe ser el doble de resolución.
+11. Teniendo en cuenta el punto 10, al ser imágenes grandes y pesadas entonces es necesario comprimir la imágenes para mejor rendimiento. Podemos usar Squoosh.
+12. Al usar multiples imágenes lado a lado, es recomendable usar imágenes que tengan el mismo tamaño en pixeles.
+
+## Iconos
+
+En muy común usar iconos en nuestra página web, claramente forma parte del diseño y estas son las reglas a seguir para agregarlos correctamente:
+
+Elige los iconos adecuados
+
+1. Usa un buen pack de iconos, tenemos páginas como:
+
+- Phosphor icons
+- ionicons
+- icons8
+
+2. Utilizar un solo pack de iconos, no combines pack porque suelen tener diferente aspecto.
+3. Usa iconos de tipo SVG o de fuente, no uses imágenes png, jpg, etc.
+4. Escoge un pack de iconos que se amolden a la personalidad de la web, que conjugue especialmente con la tipografía.
+
+Donde usar los iconos
+
+5. Usa los iconos para asistir al texto, haciéndolo un poco mas visual.
+6. Para presentar características de un producto.
+7. Usa iconos para asociar acciones o en un etiqueta de texto.
+
 # Glosario de etiquetas HTML
 
 Aquí almacenaré cada etiqueta usada para poder acceder fácilmente a ellas, los conceptos que tendrán serán los que yo crea que son.
