@@ -796,6 +796,14 @@ Donde usar los iconos
 5. Usa los iconos para asistir al texto, haciéndolo un poco mas visual.
 6. Para presentar características de un producto.
 7. Usa iconos para asociar acciones o en un etiqueta de texto.
+8. Iconos como puntos en una lista.
+
+User bien los iconos
+
+9. Para que los iconos sean neutrales, el texto y el icono deben ser del mismo color. Para llamar la atención usar diferentes colores.
+10. Usa iconos de forma inteligente, que tengan sentido con el texto o en el área donde lo vayas a poner.
+11. No agrandes los iconos si no fueron diseñados para ser grandes.
+12.
 
 # Glosario de etiquetas HTML
 
