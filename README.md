@@ -805,6 +805,27 @@ User bien los iconos
 11. No agrandes los iconos si no fueron diseñados para ser grandes.
 12.
 
+## Sombras
+
+En años pasado existía un concepto de diseño de donde habían muchas sombras llamado skuomorphic, luego pasaron al flat design donde se eliminaron por completo las sombras, lo malo del flat design es que daba problemas de usabilidad, entonces crearon el flat design 2.0 con el que se mantuvo el mismo diseño pero ahora se agregaron algunas sombras al diseño.
+
+Las sombras cuando es utilizada es para dar efecto 3D a los elementos, mientras la sombra sea de mayor proporción entonces el efecto 3D será mas notable.
+Puede ser usado en cajas como en texto.
+
+Uso correcto de las sombras
+
+1. No es obligatorio usar sombras, solo se usa cuando tiene sentido para la personalidad de la web.
+2. Usar sombras en pequeñas dosis, solo en zonas especiales para llamar la atención.
+3. Usa sombras ligeras, no muy oscuras y grandes.
+
+Usa las sombras en la situación correcta
+
+4. Usar sombras pequeñas para elementos como botones, cuadros de texto, etc.
+5. Sombras de tamaño medio pueden ser utilizadas en recuadros grandes como un anuncio, cartas de producto.
+6. Usa sombras grandes para elementos que floten por encima de la interface principal.
+7. Experimentas cambios de sombras en interacciones con el mouse.
+8. Experimentar con sombras de colores para efectos de brillo en los elementos.
+
 # Glosario de etiquetas HTML
 
 Aquí almacenaré cada etiqueta usada para poder acceder fácilmente a ellas, los conceptos que tendrán serán los que yo crea que son.
@@ -845,6 +866,8 @@ Aquí almacenaré cada etiqueta usada para poder acceder fácilmente a ellas, lo
 
 `<footer>` -> Pie de página de la web con información extra.
 
+`<figure>` -> Elemento para crear cards de productos o representar una card.
+
 <br>
 
 # Glosario de propiedades CSS
@@ -873,6 +896,8 @@ Aquí almacenaré cada etiqueta usada para poder acceder fácilmente a ellas, lo
 - **gap** -> Crear separaciones entre las rejillas
 - **column-gap** -> Crea separaciones entre las rejillas de la columna
 - **row-gap** -> Crea separaciones en las rejillas de las filas
+- **box-shadow** -> Propiedad para crear sombras en elementos tipo caja
+- **text-shadow** -> Propiedad para crear sombras en elementos tipo texto
 
 <br>
 
