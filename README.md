@@ -826,6 +826,63 @@ Usa las sombras en la situación correcta
 7. Experimentas cambios de sombras en interacciones con el mouse.
 8. Experimentar con sombras de colores para efectos de brillo en los elementos.
 
+## Bordes redondeados
+
+Usar bien los bordes redondeados
+
+1. Cuando un diseño tiene menos bordes redondeados es mas serio/elegante, mientras que si tiene más es mas divertido o juguetón, quita seriedad.
+2. La tipografía en cierta forma es un poco redonda y es importante que los bordes redondeados que apliquemos a los demás elementos conjuguen con eso.
+3. Usa los bordes redondeados en botones, imágenes, al rededor de los iconos, en secciones que llamen la atención y otros elementos.
+
+## Espacios en blanco
+
+¿Para qué se utiliza o es usado en un diseño?
+
+- Los espacios en blanco permiten a que los diseños se vean limpios, modernos y pulidos, de otra forma se vería muy - apretado entre todos los elementos.
+
+- Los espacio en blanco comunica como diferentes piezas de información se relacionan una con otra.
+
+- Los espacios en blanco aplica relaciones invisibles entre elementos de un diseño.
+
+¿Donde usar los espacios en blanco?
+
+1. Usar grandes cantidad de espacio en blanco entre secciones. 140/160/192px
+2. Usa cantidad considerada de espacio en blanco entre grupo de elementos. 96/152/24
+3. Poca cantidades en elementos mas pequeños.
+4. Entre grupo de elementos, intenta usar espacios en blanco en lugar de lineas.
+
+¿Cuánto espacio en blanco utilizar?
+
+5. Cuanto más relación tienen algunas elementos más cerca deben estar.
+6. Empieza con mucho espacio en blanco, luego quitas poco a poco hasta que el diseño pueda "respirar", ni muy lejanos ni muy cercanos.
+7. Que conjugue con otras decisiones de diseño, si tienes texto grande entonces necesitas más espacio en blanco.
+8. Intenta usar una regla, donde lo valores son múltiplos de 16px.
+
+## Jerarquía visual
+
+¿Qué es jerarquía visual?
+
+Se trata de establecer en el diseño que elementos serán los mas importantes y que estas llamen la atención, además definirá una guía visual para el usuario.
+
+Para establecer una guía visual se usa la combinación de posiciones, tamaño, colores, espacios, bordes y sombras entre elementos.
+
+Fundamentos de la jerarquía visual
+
+1. Posiciona los elementos mas importantes cerca del inicio de la página, lugar donde reciben mas atención.
+2. Piensa bien al usar imágenes, llaman demasiado la atención.
+3. Los espacios en blanco crean separación, utilízalo para enfatizar elementos.
+
+Jerarquía visual para elementos de tipo texto
+
+4. Para elementos de tipo texto, usa font-size, font-weight, color y espacios para transmitir importancia.
+5. ¿Qué elementos de tipo texto enfatizar? Títulos, subtítulos, links, botones, data points, iconos. Podemos quitar énfasis a elementos de poca importancia como labels o información secundaria.
+
+Jerarquía visual entre componentes
+
+6. Enfatiza un componente importante usando colores de fondo, sombra o bordes.
+7. Intenta enfatizar un componente A sobre el B.
+8. ¿Qué componentes enfatizar? Testimonials, call-to-action sections, highlight sections, preview cards, forms, pricing tables, filas y columnas importantes de una tabla.
+
 # Glosario de etiquetas HTML
 
 Aquí almacenaré cada etiqueta usada para poder acceder fácilmente a ellas, los conceptos que tendrán serán los que yo crea que son.
