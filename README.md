@@ -883,6 +883,43 @@ Jerarquía visual entre componentes
 7. Intenta enfatizar un componente A sobre el B.
 8. ¿Qué componentes enfatizar? Testimonials, call-to-action sections, highlight sections, preview cards, forms, pricing tables, filas y columnas importantes de una tabla.
 
+## Experiencia de usuario (UX)
+
+UX es la sensación o experiencia que se le da al usuario a la hora de interactuar con los elementos de nuestra web.
+
+- Tiene que ser lógico
+- Intuitivo
+- Encontrar fácilmente lo que quieren
+
+¿Qué diferencias hay en UI y UX?
+
+UI es la interfaz gráfica, tiene que ser atractiva y bien diseñada.
+
+UX es la experiencia que da navegar por ella, debe ser fácil de usar y funcional.
+
+No puede existir UX si no existe un diseño de UI.
+
+Principio rector del diseño UX: objetivos
+
+Un sitio web existe por una razón: un usuario tiene un objetivo para visitarla y un negocio tiene un objetivo para crearla.
+
+Reglas de UX para usabilidad
+
+1. No diseñes layouts complicados, usa patrones conocidos por los usuarios.
+2. Haga que su llamada a la acción sea un elemento prominente, que llame la atención.
+3. Utiliza texto de color azul y subrayado solo para los enlaces.
+4. Animaciones tiene que tener un propósito y debe ser rápidas entre 200ms y 500ms.
+5. En formularios, alinea los labels y campo de texto en una sola linea vertical, lo hace más fácil de leer.
+6. Da respuestas cuando el usuario interactué con alguna acción de la web.
+7. Posiciona los botones donde puedan crear un efecto.
+
+Reglas UX para el contenido
+
+8. Describe y utiliza palabras clave en tu página principal.
+9. Solo incluye texto relevante, corto y claro.
+10. Utilizar palabras simples, sin ser demasiado técnico.
+11. Para bloques extensos de texto utilizar subtítulos, imágenes, blockquote, etc.
+
 # Glosario de etiquetas HTML
 
 Aquí almacenaré cada etiqueta usada para poder acceder fácilmente a ellas, los conceptos que tendrán serán los que yo crea que son.
