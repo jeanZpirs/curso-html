@@ -920,6 +920,14 @@ Reglas UX para el contenido
 10. Utilizar palabras simples, sin ser demasiado técnico.
 11. Para bloques extensos de texto utilizar subtítulos, imágenes, blockquote, etc.
 
+## Elementos y componentes
+
+Los elementos son por ejemplo los botones, texto, imágenes que juntas conformar un componente, y dichos componentes aplicando un patron forman un diseño y ese diseño al final se transforma en una página completa.
+
+Hay que usar elementos y componentes comunes que convengan en nuestra página web.
+Combinemos componentes usando patrones de diseño.
+Al final usamos diferentes patrones en diferentes area de la página para crear la página final.
+
 # Glosario de etiquetas HTML
 
 Aquí almacenaré cada etiqueta usada para poder acceder fácilmente a ellas, los conceptos que tendrán serán los que yo crea que son.
